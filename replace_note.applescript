@@ -54,17 +54,20 @@ li { margin: 3px 0; }
 <p><span class='time'>19:15</span> — <span class='venue'>La Terrazza Kensington</span> <span class='confirmed'>✓ CONFIRMED</span><br>
 <span class='details'>Conf: 24901 • Table for 2, name: Ezra Ball</span></p>
 
-<h2>Sunday Feb 15 — East London</h2>
-<p class='theme'>Neon art, curiosities, and jazz. The \"weird &amp; wonderful\" day.</p>
+<h2>Sunday Feb 15 — East London + Sunday Roast</h2>
+<p class='theme'>Neon art, curiosities, Sunday roast, and jazz. The \"weird &amp; wonderful\" day.</p>
 
 <p><span class='time'>10:30</span> — Head to Walthamstow (Victoria line, ~30min)</p>
 
 <p><span class='time'>11:00</span> — <span class='venue'>God's Own Junkyard</span><br>
 <span class='details'>Free entry. Rolling Scones Cafe for brunch. Phone photos only (no DSLRs). Closes 6pm Sun.</span></p>
 
-<p><span class='time'>14:00</span> — Head to Hackney (~20min by Overground)</p>
+<p><span class='time'>13:00</span> — Head to Dalston (~15min by Overground from Walthamstow Central)</p>
 
-<p><span class='time'>14:30</span> — <span class='venue'>Viktor Wynd Museum of Curiosities</span><br>
+<p><span class='time'>13:30</span> — <span class='venue'>Sunday Roast: Madame Pigg or Jones &amp; Sons, Dalston</span><br>
+<span class='details'><strong>Madame Pigg</strong> (#2 on League of Roasts, 9.14/10) OR <strong>Jones &amp; Sons</strong> (3 Gillett St, N16 8JH, veggie £18, meat £22+, hidden courtyard, huge Yorkshires). Both perfect between Walthamstow &amp; Hackney.</span></p>
+
+<p><span class='time'>14:30</span> — Walk to <span class='venue'>Viktor Wynd Museum</span> (~10min walk to 11 Mare St, E8 4RP)<br>
 <span class='details'>£12 (opens noon Sun). Dark Fairy Tales exhibition. Absinthe Parlour bar (free entry to bar).</span></p>
 
 <p><span class='time'>17:00</span> — Head back west</p>
@@ -73,6 +76,9 @@ li { margin: 3px 0; }
 <span class='details'>Live jazz, dinner + drinks. Old Brompton Rd (near hotel). Romantic evening.</span></p>
 
 <div class='note'>
+<strong>Sunday Roast Alternatives:</strong><br>
+• The Raglan, Walthamstow (#18 on League) - if eating earlier<br>
+• The Nelson's, Hackney (32 Horatio St, E2 7SB) - near Viktor Wynd, 12-6pm<br><br>
 <strong>Backup if weather is bad:</strong> Skip Walthamstow, do V&amp;A instead (free, near hotel). Viktor Wynd can move to Thursday (£4 walk-in!).
 </div>
 

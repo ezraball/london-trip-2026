@@ -116,16 +116,23 @@ Arrive late evening. Settle into hotel (South Kensington).
 |------|----------|-------|
 | 10:30am | Head to Walthamstow (Victoria line, ~30min) | |
 | 11am | **God's Own Junkyard** | Free entry. Rolling Scones Cafe for brunch. Phone photos only (no DSLRs). Closes 6pm Sun. |
-| 2pm | Head to Hackney (~20min by Overground) | |
-| 2:30pm | **Viktor Wynd Museum of Curiosities** | £12 (opens noon Sun). Dark Fairy Tales exhibition. Absinthe Parlour bar (free entry to bar). |
+| 1pm | Head to Dalston (~15min by Overground from Walthamstow Central) | |
+| 1:30pm | **Sunday Roast: Madame Pigg or Jones & Sons, Dalston** | **Madame Pigg** (#2 on League of Roasts, 9.14) OR **Jones & Sons** (3 Gillett St, N16 8JH, veggie £18, meat £22+, hidden courtyard, huge Yorkshires). Both perfect location between Walthamstow & Hackney. |
+| 2:30pm | Walk to **Viktor Wynd Museum** (~10min walk to 11 Mare St, E8 4RP) | £12 (opens noon Sun). Dark Fairy Tales exhibition. Absinthe Parlour bar (free entry to bar). |
 | 5pm | Head back west | |
 | 7:30pm | **The Troubadour -- Jazz Sunday** | Live jazz, dinner + drinks. Old Brompton Rd (near hotel). Romantic evening. |
+
+**Sunday Roast Options (1:30pm in Dalston):**
+- **Madame Pigg, Dalston** - #2 rated (9.14/10), featured in North London best roasts
+- **Jones & Sons, Dalston** - 3 Gillett Street, N16 8JH. Hidden courtyard, huge Yorkshire puddings. Veggie £18, meat from £22.
+- **Alternative: The Raglan, Walthamstow** - #18 on League of Roasts, if you want to eat earlier/closer to God's Own Junkyard
+- **Alternative: The Nelson's, Hackney** - 32 Horatio Street, E2 7SB (near Viktor Wynd). Beef rump, pork belly, lamb shoulder, fried chicken. 12-6pm.
 
 **Backup if weather is bad / low energy:**
 - Skip Walthamstow, do V&A instead (free, near hotel, *Design and Disability* closes today!)
 - Viktor Wynd can move to Thu (£4 walk-in Thursdays!)
 
-**Booking action:** Viktor Wynd via Eventbrite. Troubadour -- check events page, may not need reservation for upstairs cafe.
+**Booking action:** Viktor Wynd via Eventbrite. Troubadour -- check events page, may not need reservation for upstairs cafe. Sunday roasts generally walk-in friendly but can call ahead.
 
 ---
 
