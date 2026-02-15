@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>London Trip — Feb 13–20, 2026</title>
+<style>
+  :root { --bg: #f5f5f0; --card: #fff; --accent: #c0392b; --confirmed: #27ae60; --muted: #888; --border: #e0e0e0; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, system-ui, 'Segoe UI', sans-serif; max-width: 860px; margin: 0 auto; padding: 20px; background: var(--bg); color: #333; line-height: 1.5; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h1 small { font-weight: 400; color: var(--muted); font-size: 16px; }
+  h2 { font-size: 20px; margin-top: 40px; border-bottom: 2px solid var(--accent); padding-bottom: 6px; }
+  h2 .date { color: var(--accent); }
+  h2 .theme { font-weight: 400; color: var(--muted); font-size: 14px; display: block; margin-top: 2px; }
+  h3 { font-size: 16px; margin-top: 24px; color: #555; }
+  .day-card { background: var(--card); border-radius: 8px; padding: 20px; margin: 16px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.08); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+  th { text-align: left; padding: 8px 10px; background: #f8f8f8; font-size: 13px; color: #666; border-bottom: 2px solid var(--border); }
+  td { padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; font-size: 14px; }
+  td:first-child { white-space: nowrap; font-weight: 600; color: var(--accent); width: 90px; }
+  .confirmed { background: #e8f5e9; border-left: 3px solid var(--confirmed); }
+  .confirmed td:first-child { color: var(--confirmed); }
+  .conf-badge { display: inline-block; background: var(--confirmed); color: white; padding: 1px 8px; border-radius: 3px; font-size: 11px; font-weight: 600; letter-spacing: 0.5px; }
+  .conf-code { font-family: monospace; background: #f0f0f0; padding: 1px 6px; border-radius: 3px; font-size: 12px; }
+  .notes { color: #666; font-size: 13px; margin-top: 12px; padding: 10px 14px; background: #fafafa; border-radius: 4px; border-left: 3px solid var(--border); }
+  .notes strong { color: #444; }
+  .notes ul { margin: 6px 0; padding-left: 20px; }
+  .notes li { margin: 4px 0; }
+  .booking-table { font-size: 13px; }
+  .booking-table td { padding: 6px 10px; }
+  .booking-table .booked { text-decoration: line-through; color: #aaa; }
+  .booking-table .booked td { color: #aaa; }
+  .tag { display: inline-block; padding: 2px 8px; border-radius: 3px; font-size: 11px; font-weight: 600; }
+  .tag-now { background: #ffebee; color: #c0392b; }
+  .tag-soon { background: #fff3e0; color: #e67e22; }
+  .tag-week { background: #e3f2fd; color: #2980b9; }
+  .tag-optional { background: #f3e5f5; color: #8e24aa; }
+  .tag-booked { background: #e8f5e9; color: var(--confirmed); }
+  .budget-table td:nth-child(2), .budget-table td:nth-child(3) { text-align: right; font-family: monospace; }
+  .budget-table tr:last-child { font-weight: 700; border-top: 2px solid #333; }
+  .cluster-list { columns: 2; column-gap: 24px; font-size: 14px; }
+  .cluster-list li { margin-bottom: 6px; break-inside: avoid; }
+  .section-divider { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+  .alt-restaurants td { font-size: 13px; }
+  .must-see { font-size: 14px; }
+  .must-see li { margin-bottom: 8px; }
+  @media (max-width: 600px) {
+    body { padding: 12px; }
+    .cluster-list { columns: 1; }
+    td:first-child { width: 70px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>London Trip <small>Feb 13–20, 2026</small></h1>
+<p>Hotel: Exhibitionist Hotel, South Kensington</p>
+
+<h3>Geographic Clusters</h3>
+<ul class="cluster-list">
+  <li><strong>South Ken:</strong> V&amp;A, NHM, Pravaas, Troubadour, Hotel</li>
+  <li><strong>Southbank:</strong> Tate Modern, Borough Market, Graffiti Tunnel, SEA LIFE</li>
+  <li><strong>Westminster:</strong> Churchill War Rooms, Big Ben</li>
+  <li><strong>Trafalgar Sq:</strong> National Gallery</li>
+  <li><strong>The City:</strong> Tower of London, Sky Garden, Duck &amp; Waffle, Ibai</li>
+  <li><strong>Soho:</strong> Outernet, Kettner's, Ducksoup, Sister Ray, Dr. Martens</li>
+  <li><strong>Fitzrovia/Mayfair:</strong> Circolo Popolare, sketch</li>
+  <li><strong>Bloomsbury:</strong> British Museum</li>
+  <li><strong>Camden:</strong> Camden Market, Lost Souls Pizza</li>
+  <li><strong>North London:</strong> Highgate Cemetery, Abbey Road</li>
+  <li><strong>East London:</strong> God's Own Junkyard, Viktor Wynd Museum</li>
+</ul>
+
+<hr class="section-divider">
+
+<!-- ============ FEB 13 ============ -->
+<h2><span class="date">Feb 13 (Fri)</span> — Arrival Night
+  <span class="theme">Settle in. Rest up.</span>
+</h2>
+<div class="day-card">
+  <p>Arrive late evening. Settle into hotel (South Kensington).</p>
+  <p><strong>If arriving by 6pm:</strong></p>
+  <ul>
+    <li>Saatchi Lates: <em>The Long Now</em> (6:30–9pm, Chelsea, from &pound;10)</li>
+    <li>Lost Souls Pizza Friday the 13th Special (Camden, &pound;13 pizzas + 2-for-&pound;13 cocktails)</li>
+  </ul>
+  <p><strong>If arriving later:</strong> Rest up. Jet lag recovery. Grab food near hotel.</p>
+</div>
+
+<!-- ============ FEB 14 ============ -->
+<h2><span class="date">Feb 14 (Sat)</span> — Valentine's Day
+  <span class="theme">Relaxed &amp; romantic. South Ken / Chelsea.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>Morning</td><td>Sleep in. Explore South Kensington.</td><td>Jet lag buffer. Coffee near hotel.</td></tr>
+    <tr><td>11am</td><td><strong>Saatchi Gallery</strong> — <em>The Long Now</em> + <em>Good Eye Projects</em></td><td>From &pound;10 / free. 15min walk to Chelsea.</td></tr>
+    <tr><td>1:30pm</td><td>Lunch near King's Road</td><td>Casual — save appetite for dinner</td></tr>
+    <tr><td>Afternoon</td><td>Stroll Hyde Park or Chelsea / King's Road</td><td>Light, romantic wandering</td></tr>
+    <tr class="confirmed"><td>19:15</td><td><strong>La Terrazza — Valentine's Dinner</strong> <span class="conf-badge">CONFIRMED</span></td><td>Conf: <span class="conf-code">24901</span> · Table for 2, name: Ezra Ball.</td></tr>
+  </table>
+  <div class="notes">
+    <strong>Backup evening:</strong> Darwin Brasserie V-Day Menu (&pound;135pp) · Fenchurch Tasting Menu (&pound;195pp) · NHM Valentine's Evening · Sleepless in Seattle Live at Royal Festival Hall (7:30pm, from &pound;36)
+  </div>
+</div>
+
+<!-- ============ FEB 15 ============ -->
+<h2><span class="date">Feb 15 (Sun)</span> — East London
+  <span class="theme">Neon art, curiosities, and jazz. The "weird &amp; wonderful" day.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>10:30am</td><td>Head to Walthamstow (Victoria line, ~30min)</td><td></td></tr>
+    <tr><td>11am</td><td><strong>God's Own Junkyard</strong></td><td>Free. Rolling Scones Cafe for brunch. Phone photos only. Closes 6pm Sun.</td></tr>
+    <tr><td>2pm</td><td>Head to Hackney (~20min by Overground)</td><td></td></tr>
+    <tr><td>2:30pm</td><td><strong>Viktor Wynd Museum of Curiosities</strong></td><td>&pound;12 (opens noon Sun). Dark Fairy Tales exhibition. Absinthe Parlour bar (free).</td></tr>
+    <tr><td>5pm</td><td>Head back west</td><td></td></tr>
+    <tr><td>7:30pm</td><td><strong>The Troubadour — Jazz Sunday</strong></td><td>Live jazz, dinner + drinks. Near hotel.</td></tr>
+  </table>
+  <div class="notes">
+    <strong>Backup:</strong> Skip Walthamstow → do V&amp;A instead (free, near hotel, <em>Design and Disability</em> closes today!). Viktor Wynd can move to Thu (&pound;4 walk-in).
+  </div>
+</div>
+
+<!-- ============ FEB 16 ============ -->
+<h2><span class="date">Feb 16 (Mon)</span> — Southbank + Soho
+  <span class="theme">Modern art, street art, vinyl shopping, Soho dining. Borough Market closed Mon.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>10am</td><td><strong>Tate Modern</strong></td><td>Free. <em>Theatre Picasso</em>, <em>Nigerian Modernism</em>, Turbine Hall commission.</td></tr>
+    <tr><td>12:30pm</td><td>Walk along South Bank toward Waterloo</td><td></td></tr>
+    <tr><td>1pm</td><td><strong>Leake Street Graffiti Tunnel</strong></td><td>Free, open 24/7. Quick stop for photos.</td></tr>
+    <tr><td>1:30pm</td><td>Lunch on South Bank or head to Soho</td><td></td></tr>
+    <tr><td>2:30pm</td><td><strong>Soho circuit:</strong> Outernet → Sister Ray → Dr. Martens</td><td>All walkable within Soho/West End.</td></tr>
+    <tr><td>6pm</td><td><strong>Dinner: Ducksoup</strong> or <strong>Kettner's</strong></td><td>Natural wine + small plates / French bistro + champagne bar.</td></tr>
+    <tr><td>Evening</td><td>Drinks at <strong>Kettner's Champagne Bar</strong></td><td>Open to everyone, no membership needed.</td></tr>
+  </table>
+  <div class="notes">
+    <strong>Optional add-ons (pick 1–2):</strong>
+    <ul>
+      <li><strong>SEA LIFE London Aquarium</strong> — after Graffiti Tunnel (same area). From &pound;23.</li>
+      <li><strong>The National Gallery</strong> — Free. On the way to Soho (Trafalgar Square).</li>
+      <li><strong>Churchill War Rooms</strong> — &pound;33 (&pound;25 after 3:30pm). 15min from Waterloo. ~90min visit.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ============ FEB 17 ============ -->
+<h2><span class="date">Feb 17 (Tue)</span> — The City: Barbican, Tower, Sky Garden — Meesh's Birthday! &#127874;
+  <span class="theme">Brutalist architecture, history, panoramic views. The "iconic London" day. Happy birthday Meesh!</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>9am</td><td><strong>Breakfast: Barbie Green</strong></td><td>Australian brunch at London Wall Place (5min from Barbican). Opens 7am. No booking needed.</td></tr>
+    <tr><td>10am</td><td><strong>Walk the Barbican Centre</strong></td><td>Free. Brutalist terraces, lakeside, highwalks. The Curve gallery opens 11am.</td></tr>
+    <tr class="confirmed"><td>11:30am</td><td><strong>Tower of London</strong> <span class="conf-badge">CONFIRMED</span></td><td>Conf: <span class="conf-code">DVOTK7G16KVZY</span> · ~20min walk from Barbican. Yeoman Warder tours every 30min. Crown Jewels, White Tower. Allow 2.5 hours.</td></tr>
+    <tr><td>2pm</td><td>Walk to <strong>Sky Garden</strong> (~15min)</td><td>Free. Book timed entry at tickets.skygarden.london.</td></tr>
+    <tr><td>3pm</td><td>Free afternoon — explore the City</td><td>Tower Bridge glass walkway (&pound;12.30), St Paul's exterior, or wander.</td></tr>
+    <tr class="confirmed"><td>19:15</td><td><strong>Duck &amp; Waffle dinner</strong> <span class="conf-badge">CONFIRMED</span></td><td>Conf: <span class="conf-code">CXSNF933JR88</span> · 40th floor. Smart casual.</td></tr>
+  </table>
+</div>
+
+<!-- ============ FEB 18 ============ -->
+<h2><span class="date">Feb 18 (Wed)</span> — North London: Highgate + Camden
+  <span class="theme">Gothic cemetery, punk markets, vampire pizza. The "dark side of London" day.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>10am</td><td><strong>Highgate Cemetery</strong></td><td>&pound;10 combined. Timed entry — book online. Winter hours 10am–4pm. Card only. 1.5–2 hours.</td></tr>
+    <tr><td>12pm</td><td>Tube Archway → Camden Town (Northern line, ~15min)</td><td></td></tr>
+    <tr><td>12:30pm</td><td>Optional: <strong>Abbey Road Studios</strong></td><td>St John's Wood tube. ~30min round trip for crossing photo.</td></tr>
+    <tr><td>1pm</td><td><strong>Lunch: Lost Souls Pizza</strong></td><td>Black Wednesday: 2 pizzas for &pound;20! Vampire-themed. Book via TheFork.</td></tr>
+    <tr><td>2:30pm</td><td><strong>Camden Market</strong></td><td>Free. Stalls, street food, vintage. Weekday = quieter.</td></tr>
+    <tr><td>4:30pm</td><td>Head back to central/hotel</td><td></td></tr>
+    <tr><td>Evening</td><td><strong>The Troubadour — House Band Wednesday</strong></td><td>Open jam night. Near hotel.</td></tr>
+  </table>
+  <div class="notes">
+    <strong>Backup if weather is bad:</strong> Move Highgate to a better day. Replace with British Museum (indoor, Bloomsbury).
+  </div>
+</div>
+
+<!-- ============ FEB 19 ============ -->
+<h2><span class="date">Feb 19 (Thu)</span> — Museums + London Fashion Week Day 1
+  <span class="theme">World-class museums and fashion week atmosphere.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>10am</td><td><strong>British Museum</strong></td><td>Free general, timed entry recommended. <strong>Samurai</strong> (&pound;23). <strong>Hawai'i</strong> (&pound;16). Allow 3 hours.</td></tr>
+    <tr><td>1pm</td><td>Tube to London Bridge (~15min)</td><td></td></tr>
+    <tr><td>1:30pm</td><td><strong>Borough Market — street food lunch</strong></td><td>Open Thu 10am–5pm. Kappacasein raclette, Bread Ahead doughnuts, Padella, and more.</td></tr>
+    <tr><td>3pm</td><td>Tube to South Kensington (~20min)</td><td></td></tr>
+    <tr><td>3:30pm</td><td><strong>Natural History Museum</strong></td><td>Free general. <strong>Space</strong> (&pound;14) — closes Feb 22, last chance! <strong>Wildlife Photographer</strong> (&pound;15.50). <strong>Attenborough</strong> (&pound;20).</td></tr>
+    <tr><td>5pm</td><td>London Fashion Week atmosphere</td><td>Day 1 of LFW. BFC City Wide Celebration public events.</td></tr>
+    <tr><td>Evening</td><td><strong>Final big dinner</strong></td><td>Kettner's, or revisit a favorite.</td></tr>
+  </table>
+  <div class="notes">
+    <strong>Alternative:</strong> Viktor Wynd Museum — &pound;4 Thursday walk-in! (opens 3pm Thu). Hackney, then back for dinner.
+  </div>
+</div>
+
+<!-- ============ FEB 20 ============ -->
+<h2><span class="date">Feb 20 (Fri)</span> — Departure Day
+  <span class="theme">Quick hit near hotel before heading to airport.</span>
+</h2>
+<div class="day-card">
+  <table>
+    <tr><th>Time</th><th>Activity</th><th>Notes</th></tr>
+    <tr><td>10am</td><td><strong>V&amp;A Museum</strong></td><td>Free, opens 10am. Right next to hotel. Fashion galleries, Jewellery, Cast Courts.</td></tr>
+    <tr><td>12pm</td><td>Pack up, check out</td><td></td></tr>
+    <tr><td>Early PM</td><td>Head to airport</td><td></td></tr>
+  </table>
+  <div class="notes">
+    <strong>Alternatives:</strong> Hyde Park / Kensington Gardens walk · Last-minute shopping · Borough Market final food crawl (open Fri 10am–5pm)
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============ BOOKING CHECKLIST ============ -->
+<h2>Advance Booking Checklist</h2>
+<div class="day-card">
+  <table class="booking-table">
+    <tr><th>Priority</th><th>What</th><th>How / Price</th></tr>
+    <tr class="booked"><td><span class="tag tag-booked">BOOKED</span></td><td><s>La Terrazza V-Day dinner (Sat Feb 14, 19:15)</s></td><td><s>Conf: 24901</s></td></tr>
+    <tr class="booked"><td><span class="tag tag-booked">BOOKED</span></td><td><s>Tower of London (Tue Feb 17, 11:30)</s></td><td><s>Conf: DVOTK7G16KVZY · &pound;34.80</s></td></tr>
+    <tr><td><span class="tag tag-soon">2 WEEKS</span></td><td>Highgate Cemetery (Feb 18)</td><td>highgatecemetery.org · &pound;10</td></tr>
+    <tr><td><span class="tag tag-soon">2 WEEKS</span></td><td>Sky Garden free tickets</td><td>tickets.skygarden.london · Free</td></tr>
+    <tr><td><span class="tag tag-week">1 WEEK</span></td><td>British Museum timed entry (Feb 19)</td><td>britishmuseum.org · Free</td></tr>
+    <tr><td><span class="tag tag-week">1 WEEK</span></td><td>Darwin Brasserie (Feb 17 lunch)</td><td>skygarden.london or 0333 772 0020 · ~&pound;20</td></tr>
+    <tr class="booked"><td><span class="tag tag-booked">BOOKED</span></td><td><s>Duck &amp; Waffle (Tue Feb 17, 19:15)</s></td><td><s>Conf: CXSNF933JR88</s></td></tr>
+    <tr><td><span class="tag tag-week">1 WEEK</span></td><td>Kettner's (Feb 16 or 19)</td><td>OpenTable</td></tr>
+    <tr><td><span class="tag tag-week">1 WEEK</span></td><td>Ducksoup (Feb 16)</td><td>Call 020 7287 4599</td></tr>
+    <tr><td><span class="tag tag-week">1 WEEK</span></td><td>Lost Souls Pizza (Feb 18)</td><td>TheFork · &pound;10–20pp</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>NHM paid exhibitions</td><td>nhm.ac.uk · &pound;14–20 each</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>Saatchi: The Long Now</td><td>saatchigallery.com · From &pound;10</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>British Museum: Samurai</td><td>britishmuseum.org · &pound;23</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>Viktor Wynd Museum</td><td>Eventbrite · &pound;12 (or &pound;4 Thu)</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>SEA LIFE London Aquarium</td><td>visitsealife.com · From &pound;23</td></tr>
+    <tr><td><span class="tag tag-optional">OPTIONAL</span></td><td>Churchill War Rooms</td><td>iwm.org.uk · &pound;33 (&pound;25 after 3:30)</td></tr>
+  </table>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============ ALT RESTAURANTS ============ -->
+<h2>Alternative Restaurant Options <small style="font-weight:400;color:var(--muted)">(not must-attend)</small></h2>
+<div class="day-card">
+  <table class="alt-restaurants">
+    <tr><th>Restaurant</th><th>Location</th><th>Vibe</th><th>Booking</th></tr>
+    <tr><td><strong>Circolo Popolare</strong></td><td>Fitzrovia</td><td>Big Mamma Italian, instagrammable. Huge portions.</td><td>No reservations, 30–60min queue</td></tr>
+    <tr><td><strong>sketch</strong></td><td>Mayfair</td><td>Famous pink Gallery room. Afternoon tea ~&pound;80pp.</td><td>Recommended</td></tr>
+    <tr><td><strong>Ibai</strong></td><td>Smithfield</td><td>Basque small plates, natural wine.</td><td>Walk-in or OpenTable</td></tr>
+  </table>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============ BUDGET ============ -->
+<h2>Budget Estimate <small style="font-weight:400;color:var(--muted)">(per person, excl. flights/hotel)</small></h2>
+<div class="day-card">
+  <table class="budget-table">
+    <tr><th>Category</th><th>Low</th><th>High</th><th>Notes</th></tr>
+    <tr><td>Tower of London</td><td>&pound;35</td><td>&pound;40</td><td>Online vs gate</td></tr>
+    <tr><td>Highgate Cemetery</td><td>&pound;10</td><td>&pound;18</td><td>Self-guided vs guided</td></tr>
+    <tr><td>NHM exhibitions</td><td>&pound;14</td><td>&pound;55</td><td>Space + Wildlife + Attenborough</td></tr>
+    <tr><td>British Museum exhibitions</td><td>&pound;16</td><td>&pound;39</td><td>Hawai'i and/or Samurai</td></tr>
+    <tr><td>Saatchi Gallery</td><td>&pound;10</td><td>&pound;10</td><td>The Long Now</td></tr>
+    <tr><td>Viktor Wynd Museum</td><td>&pound;4</td><td>&pound;12</td><td>Thu walk-in vs regular</td></tr>
+    <tr><td>Churchill War Rooms</td><td>&pound;25</td><td>&pound;33</td><td>After 3:30pm vs full price</td></tr>
+    <tr><td>SEA LIFE Aquarium</td><td>&pound;23</td><td>&pound;30</td><td>Online vs gate</td></tr>
+    <tr><td>Restaurants (7 dinners)</td><td>&pound;150</td><td>&pound;350</td><td>Casual to V-Day splurge</td></tr>
+    <tr><td>Transport (Oyster)</td><td>&pound;50</td><td>&pound;70</td><td>Daily cap ~&pound;8.10 zones 1–2</td></tr>
+    <tr><td><strong>TOTAL</strong></td><td><strong>&pound;340</strong></td><td><strong>&pound;660</strong></td><td>Per person for the week</td></tr>
+  </table>
+</div>
+
+<hr class="section-divider">
+
+<!-- ============ MUST SEE ============ -->
+<h2>Must-See Sights Not on Itinerary</h2>
+
+<div class="day-card must-see">
+  <h3>Things You'll Walk Past</h3>
+  <ul>
+    <li><strong>Tower Bridge</strong> — Right next to Tower of London (Tue). Glass floor walkway. Free to cross, &pound;12.30 for exhibition.</li>
+    <li><strong>St Paul's Cathedral</strong> — Between Tower and Sky Garden. Interior &pound;23, free for services.</li>
+    <li><strong>Millennium Bridge</strong> — Connects Tate Modern to St Paul's. You'll cross it Monday.</li>
+    <li><strong>Shakespeare's Globe</strong> — Next to Tate Modern. Tours ~&pound;20.</li>
+    <li><strong>National Portrait Gallery</strong> — Lucian Freud exhibition. Free. Short walk from Soho.</li>
+  </ul>
+
+  <h3>Matches Your Vibe</h3>
+  <ul>
+    <li><strong>Dennis Severs' House</strong> (Spitalfields) — Candlelit 18th-century time capsule. ~&pound;15, book ahead. Unlike anything else.</li>
+    <li><strong>Columbia Road Flower Market</strong> — Sunday mornings only (8am–3pm). Free. Beautiful photo ops.</li>
+    <li><strong>Brick Lane / Shoreditch</strong> — Street art, vintage shops, Beigel Bake (24hr bagel shop).</li>
+    <li><strong>Maltby Street Market</strong> — Smaller Borough Market alternative. Saturday mornings, railway arches.</li>
+    <li><strong>The Barbican Centre</strong> — Brutalist architecture, conservatory (Fri-Sun), art gallery.</li>
+  </ul>
+
+  <h3>Classic Sights</h3>
+  <ul>
+    <li><strong>Westminster / Big Ben</strong> — 20-min Thames walk. Churchill War Rooms nearby (&#10003; on Mon).</li>
+    <li><strong>Trafalgar Square / National Gallery</strong> — &#10003; Added to Mon as optional add-on.</li>
+    <li><strong>Kew Gardens</strong> — Orchid Festival through Mar 8. Richmond (~30min out).</li>
+  </ul>
+
+  <h3>Top 3 Recommendations</h3>
+  <ol>
+    <li><strong>Dennis Severs' House</strong> — Could fit Tue (City day). ~&pound;15. Book ahead.</li>
+    <li><strong>Columbia Road Flower Market</strong> — Sun morning before Walthamstow. Free.</li>
+    <li><strong>National Portrait Gallery</strong> — Lucian Freud. Free. Easy add-on any day.</li>
+  </ol>
+</div>
+
+<p style="text-align:center;color:var(--muted);font-size:12px;margin-top:40px;">Generated from london_venues.db &middot; Last updated Feb 2026</p>
+
+</body>
+</html>
